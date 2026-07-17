@@ -52,7 +52,7 @@ export class App implements AfterViewInit {
       `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage:\n${message}`
     );
 
-    window.location.href = `mailto:jenniferfreed@yahoo.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:jennifer.freed0423@gmail.com?subject=${subject}&body=${body}`;
 
     form.reset();
   }
